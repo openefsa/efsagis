@@ -1,0 +1,8 @@
+Package: efsagis
+Title: Library with tmap layers usefull for EFSA
+Version: 0.0.0.9000
+Authors@R: person("Carsten", "Behring", email = "carsten.behring@efsa.europa.eu", role = c("aut", "cre"))
+Description: Collection of functions and data use for spatial analysis in EFSA
+Depends: R (>= 3.2.2)
+License: What license is it under?
+LazyData: true
