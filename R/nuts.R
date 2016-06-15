@@ -1,7 +1,7 @@
 #' @export
 retainEU28 <- function(nutsSpdf) {
-    nutsSpdf <- nutsSpdf[!grepl("TR.*|MT.*|MK.*|ME.*|CH.*",nutsSpdf@data$NUTS_ID),]
-
+    nutsSpdf <- nutsSpdf[!grepl("TR.*|MK.*|ME.*|CH.*",nutsSpdf@data$NUTS_ID),]
+    nutsSpdf    
 }
 
 #' @importFrom dplyr %>%
